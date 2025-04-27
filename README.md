@@ -15,6 +15,7 @@ It is built using **PHP**, **MySQL**, **HTML/CSS**, and provides an **API** for 
 ## Features
 
 - 📄 Client registration with photo upload
+- 📄 Program Management
 - 🔍 Client search and profile viewing
 - ✅ Duplicate email prevention
 - 🔗 API endpoint for client data (`api_client.php`)
@@ -22,10 +23,10 @@ It is built using **PHP**, **MySQL**, **HTML/CSS**, and provides an **API** for 
 ## Installation
 
 1. Clone this repository
-2. Import `database.sql` into your MySQL server
+2. Import `health_system.sql` into your MySQL server from database column
 3. Configure your database connection in `/includes/db.php`
 4. Place project folder into your XAMPP/WAMP `htdocs`
-5. Access it via `http://localhost/your-project-folder`
+5. Access it via `http://localhost/health-info-system/index.php`
 
 ## API Endpoint
 
